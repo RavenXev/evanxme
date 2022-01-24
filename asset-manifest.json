@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RavenXev/evanx.me/static/css/main.073c9b0a.css",
-    "main.js": "/RavenXev/evanx.me/static/js/main.81d36515.js",
-    "static/js/787.f3772d97.chunk.js": "/RavenXev/evanx.me/static/js/787.f3772d97.chunk.js",
-    "static/media/logo.svg": "/RavenXev/evanx.me/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/RavenXev/evanx.me/index.html",
-    "main.073c9b0a.css.map": "/RavenXev/evanx.me/static/css/main.073c9b0a.css.map",
-    "main.81d36515.js.map": "/RavenXev/evanx.me/static/js/main.81d36515.js.map",
-    "787.f3772d97.chunk.js.map": "/RavenXev/evanx.me/static/js/787.f3772d97.chunk.js.map"
+    "main.css": "/evanx.me/static/css/main.073c9b0a.css",
+    "main.js": "/evanx.me/static/js/main.46a62c1e.js",
+    "static/js/787.f3772d97.chunk.js": "/evanx.me/static/js/787.f3772d97.chunk.js",
+    "static/media/logo.svg": "/evanx.me/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/evanx.me/index.html",
+    "main.073c9b0a.css.map": "/evanx.me/static/css/main.073c9b0a.css.map",
+    "main.46a62c1e.js.map": "/evanx.me/static/js/main.46a62c1e.js.map",
+    "787.f3772d97.chunk.js.map": "/evanx.me/static/js/787.f3772d97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.81d36515.js"
+    "static/js/main.46a62c1e.js"
   ]
 }
