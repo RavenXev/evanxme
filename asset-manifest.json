@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/evanx.me/static/js/main.82a50b82.js",
-    "index.html": "/evanx.me/index.html",
-    "main.82a50b82.js.map": "/evanx.me/static/js/main.82a50b82.js.map"
+    "main.js": "/static/js/main.49fbaeca.js",
+    "index.html": "/index.html",
+    "main.49fbaeca.js.map": "/static/js/main.49fbaeca.js.map"
   },
   "entrypoints": [
-    "static/js/main.82a50b82.js"
+    "static/js/main.49fbaeca.js"
   ]
 }
