@@ -1,5 +1,6 @@
 import {firestore} from '../src/firebase/config'
 import {useState, useEffect} from 'react'
+import "./Articles.css"
 
 function Articles() {
   const [data, setData] = useState(null)
@@ -32,7 +33,7 @@ function Articles() {
     <div>
       {error && <p className = 'error'>{error}</p>}
       {isPending && <p className = 'loading'>Loading...</p>}
-      <ul>
+      <ul className='articles-wrapper'>
       {data && data.map((post)=>
         <li key={post.id} className='article'>
           <h3>{post.title}</h3>
