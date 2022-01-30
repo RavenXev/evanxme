@@ -30,7 +30,7 @@ function Articles() {
 
 
   return (
-    <div>
+    <>
       {error && <p className = 'error'>{error}</p>}
       {isPending && <p className = 'loading'>Loading...</p>}
       <ul className='articles-wrapper'>
@@ -41,7 +41,7 @@ function Articles() {
         </li>
       )}
     </ul>
-    </div>
+    </>
   );
 }
 

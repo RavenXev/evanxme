@@ -1,8 +1,21 @@
+:root{
+    background-color: #ededed;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 .hero {
-    display: flex;
-    justify-content: center;
+    width: clamp(200px, 50%, 800px);
 }
 
-h1 {
-    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+.title {
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+.subtitle {
+  font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
 }

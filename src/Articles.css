@@ -1,4 +1,14 @@
 .articles-wrapper {
-    display: flex;
-    flex-direction: column;
+  width: clamp(200px, 50%, 800px);
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.article {
+  border-radius: 16px;
+  background: #ededed;
+  box-shadow: 12px 12px 26px #b2b2b2, -12px -12px 26px #ffffff;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  font-family: 'Martel', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Articles from './Articles'
-
+import "./index.css"
 const App = () => {
   return (
     <>
