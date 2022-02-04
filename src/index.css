@@ -1,3 +1,8 @@
+body {
+  background-color: #EEEEEE;
+  color: #303841;
+}
+
 .title {
   font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
   font-size: clamp(2.55rem, calc(12px + 3.3vw), 3.45rem);
@@ -21,5 +26,5 @@ p {
   padding: 0 2em;
   margin: 0 auto;
   max-width: 45rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
