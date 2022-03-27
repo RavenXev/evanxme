@@ -1,0 +1,11 @@
+.article{
+    border: 3px solid #666666;
+    margin-top: 1em;
+    padding-left: 1em;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.article:hover{
+    background-color: #dddddd;
+}

@@ -1,5 +1,4 @@
 body {
-  background-color: #ffffff;
   color: #111111;
 }
 
@@ -7,7 +6,8 @@ body {
   font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
   font-size: clamp(2.55rem, calc(12px + 3.3vw), 3.45rem);
   line-height: 1.1;
-  padding-top: 180px;
+  padding-top: 120px;
+  text-align: center;
 }
 .subtitle {
   font-family: "Martel", Georgia, "Times New Roman", Times, serif;
@@ -27,4 +27,29 @@ p {
   margin: 0 auto;
   max-width: 45rem;
   /* border: 2px solid red; */
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  font-family: "Martel", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: clamp(0.9rem, calc(5px+1vw), 1.45rem);
+  padding-top: 30px;
+}
+
+.link{
+  text-decoration: none;
+  color:rgb(172, 171, 171);
+  padding-left: 0.5em;
+  padding-right:0.5em;
+}
+
+.link:hover.link:not(.active){
+  color:#111111
+}
+
+.link.active{
+  background-color: #111111;
+  color:#ffffff;
 }

@@ -1,15 +1,30 @@
 import React from 'react';
-import Articles from './Articles'
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+
+//page components
+import About from './pages/About'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+
 import "./index.css"
 const App = () => {
   return (
-    <>
-      <div className="hero container">
-        <h1 className = "title">Hello there! <span>I'm Evan Xu.</span></h1>
-        <h2 className= "subtitle">On a mission to collect and sequence the best mental models for the good life.</h2>
-      </div>
-      <Articles />
-    </>
+    <div className="App">
+      <Router>
+        <nav>
+          <NavLink className='link' to="/">Home</NavLink>
+          <NavLink className='link' to="/about">About</NavLink>
+          <NavLink className='link' to="/contact">Contact</NavLink>
+        </nav>
+        
+        <Routes>
+          <Route path='/about' element = {<About />} />
+          <Route path='/contact' element= {<Contact />} />
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
+     
+    </div>
   )
 }
 
