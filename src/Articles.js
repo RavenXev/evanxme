@@ -38,12 +38,10 @@ function Articles() {
       <div className="container">
         {data &&
           data.map((post) => (
-            <article key={post.id} className="article">
-              <h3>{post.title}</h3>
-              <p>
-                <i>{post.content}</i>
-              </p>
-            </article>
+            <div key={post.id} className="article">
+              <h3 className="article-title">{post.title}</h3>
+              <p className="article-subtitle">{post.content}</p>
+            </div>
           ))}
       </div>
     </>
