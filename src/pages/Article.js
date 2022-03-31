@@ -27,10 +27,10 @@ export default function Article() {
   }, [id]);
 
   return (
-    <div className="blog post">
+    <div className="blog-post container">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      {data &&( <div className="container">
+      {data &&( <div>
         <h1 className="title">{data.title}</h1>
         <p className="text-content">{data.content}</p>
       </div>
