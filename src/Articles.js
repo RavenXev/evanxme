@@ -1,5 +1,6 @@
 import { firestore } from "../src/firebase/config";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Articles.css";
 
 function Articles() {
@@ -39,8 +40,10 @@ function Articles() {
         {data &&
           data.map((post) => (
             <div key={post.id} className="article">
-              <h3 className="article-title">{post.title}</h3>
-              <p className="article-subtitle">{post.content}</p>
+              <Link className="article-links"to={`/posts/${post.id}`}>
+                <h3 className="article-title">{post.title}</h3>
+                <p className="article-subtitle">{post.content}</p>
+              </Link>
             </div>
           ))}
       </div>

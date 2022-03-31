@@ -5,8 +5,10 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import About from './pages/About'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
+import Article from './pages/Article'
 
 import "./index.css"
+
 const App = () => {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ const App = () => {
           <Route path='/about' element = {<About />} />
           <Route path='/contact' element= {<Contact />} />
           <Route path='/' element={<Home />} />
+          <Route path='/posts/:id' element={<Article />}/>
         </Routes>
       </Router>
      

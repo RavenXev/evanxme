@@ -17,12 +17,6 @@ body {
   line-height: 1.3;
 }
 
-h3,
-p {
-  font-family: "Martel", Georgia, "Times New Roman", Times, serif;
-  font-weight: 400;
-}
-
 .container {
   padding: 0 2em;
   margin: 0 auto;
